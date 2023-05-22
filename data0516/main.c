@@ -121,7 +121,7 @@ ListNode* delete_first(ListNode* head)
 		count++;
 	}
 
-	printf("move along the link : %d \n", count-1);
+	printf("move along the link : %d \n", count - 1);
 	return head;		// (4)
 }
 
@@ -166,7 +166,7 @@ void print_list(ListNode* head)
 // 테스트 프로그램
 int main(void)
 {
-	ListNode* head =NULL;
+	ListNode* head = NULL;
 	int menu;
 	while (1)
 	{
@@ -246,7 +246,7 @@ int main(void)
 			printf("Enter the position to delete : ");
 			scanf_s("%d", &index);
 
-			
+
 			if (index == 0)
 			{
 				head = delete_first(head);
